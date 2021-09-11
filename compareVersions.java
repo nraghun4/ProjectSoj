@@ -1,8 +1,8 @@
 class Solution {
     public int compareVersion(String version1, String version2) {
        
-              String[] v1 = version1.split("\\.");
-        String[] v2 = version2.split("\\.");
+        String[] v1 = version1.split("\\."); // Splitting the versions based on the dots
+        String[] v2 = version2.split("\\."); 
         int i = 0;
         int j = 0;
         while(i < v1.length || j < v2.length){
